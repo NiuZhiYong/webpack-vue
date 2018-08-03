@@ -1,0 +1,27 @@
+{
+  "name": "webpack_vuetodo",
+  "version": "1.0.0",
+  "description": "webpack+vue-todos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiuZhiYong/webpack-vue.git"
+  },
+  "author": "niuzhiyong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NiuZhiYong/webpack-vue/issues"
+  },
+  "homepage": "https://github.com/NiuZhiYong/webpack-vue#readme",
+  "dependencies": {
+    "css-loader": "^1.0.0",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.2.6",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.16.4"
+  }
+}

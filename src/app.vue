@@ -1,18 +1,18 @@
 <template>
-  <div id="test">{{text}}</div>  
+  <div id="test">
+    <h1>{{msg}}</h1>
+  </div> 
 </template>
-
 <script>
 export default {
   data(){
     return {
-      text:'abc'
+      msg:'shhhhhh'
     }
   }
 }
 </script>
-
-<style>
+<style scoped>
 #test{
   color: red;
 }

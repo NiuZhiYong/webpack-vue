@@ -21,13 +21,21 @@ module.exports = {
         ]
       },
       {
+        test:/\.less/,
+        use:[
+          'style-loader',
+          'css-loader',
+          'less-loader'
+        ]
+      },
+      {
         test:/\.(gif|jpg|jpeg|png|svg)$/,
         use:[
           {
             loader:'url-loader',
             options:{
               limit:1024,
-              name:'[name].[ext]'
+              name:'[name].pack.[ext]'
             }
           }
         ]
